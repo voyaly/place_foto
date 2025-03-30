@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Place Photo</title>
+</head>
+<body style="margin: 0; display: flex; justify-content: center; align-items: center; height: 100vh;">
+    <img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=600&photoreference=PHOTO_REFERENCE&key=YOUR_API_KEY" 
+         alt="Ort Bild" 
+         style="max-width: 100%; height: auto;">
+</body>
+</html>
